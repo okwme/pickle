@@ -1,0 +1,105 @@
+.iosSliderWrapper {
+	z-index: 99999;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 324px;
+	background-color: rgba(255,255,255,0.8);
+	display: none;
+}
+
+.iosSlider {
+	width: 100%;
+	height: 324px;
+
+	img {
+		width: auto;
+		height: 300px;
+		max-height: 300px;
+	}
+}
+
+#spinner {
+	position: fixed;
+	bottom: 70px;
+	left: 70px;
+}
+
+.iosSlider .slider {
+	width: 100%;
+	height: 100%;
+}
+
+.iosSlider .slider .item {
+	position: relative;
+	top: 0;
+	left: 0;
+	
+	width: auto;
+	height: 324px;
+	margin: 0 0 0 0;
+}
+
+#hideSlider {
+	position: fixed;
+	left: 0px;
+	bottom: 324px;
+	cursor: pointer;
+	padding: 5px;
+	background: blue;
+	color: white;
+	display: none;
+}
+
+#sliderNext, #sliderPrev {
+	position: fixed;
+	padding: 15px;
+	color: blue;
+	border: 1px solid blue;
+	bottom: 120px;
+	z-index: 99999;
+	cursor: pointer;
+	display: none;
+
+	&:hover {
+		background: blue;
+		color: white;
+	}
+}
+
+#sliderNext {
+	right: 15px;
+}
+
+#sliderPrev {
+	left: 15px;
+}
+
+img[alt=eyeem] {
+	border-bottom: 5px solid #333;
+}
+
+img[alt=fivehundred] {
+	border-bottom: 5px solid #00afe5;
+}
+img[alt=fotolia] {
+	border-bottom: 5px solid #33cc33;
+}
+
+img[alt=loopcam] {
+	border-bottom: 5px solid #37d2a0;
+}
+
+img[alt=instagram] {
+	border-bottom: 5px solid #356e93;
+}
+
+img[alt=google] {
+	border-bottom: 5px solid red;
+}
+
+img[alt=flickr] {
+	border-bottom: 5px solid #ff3384;
+}

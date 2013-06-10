@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+
+  "name": "Pickle",
+  "description": "search an image of selected text",
+  "version": "1.32",
+
+  "icons": {
+    "16": "16.png",
+    "48": "48.png",
+    "128": "128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "css": ["pickle.css"],
+      "js": ["js/jquery.min.js", "js/jquery.iosslider.min.js", "js/jquery.ba-dotimeout.min.js","js/soundcloud.sdk.js",  "pickle.js"]
+
+    }
+  ],
+  "background": {
+    "persistant":false,
+    "scripts": [ "build.js"]
+  },
+  "permissions": [
+    "tabs", 
+    "http://*/*",
+    "https://*/*",
+    "http://fonts.googleapis.com/",
+    "https://ajax.googleapis.com/",
+    "contextMenus"
+  ]
+}
