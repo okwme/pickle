@@ -11,7 +11,7 @@ var contexts = ["selection"];
 for (var i = 0; i < contexts.length; i++) {
   var context = contexts[i];
   console.log(context);
-  var title = "Pickle '%s'";
+  var title = "dict.leo '%s'";
   var id = chrome.contextMenus.create({"title": title, "contexts":[context],
                                        "onclick": genericOnClick});
 }
