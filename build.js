@@ -1,8 +1,8 @@
 function genericOnClick(info, tab) {
-  console.log(info);
-  console.log(tab);
+  //console.log(info);
+  //console.log(tab);
     chrome.tabs.executeScript(null, {"code" : 'findall("'+info.selectionText+'");'}, function(result){
-    	console.log("finished");
+    	//console.log("finished");
     });
 }
 

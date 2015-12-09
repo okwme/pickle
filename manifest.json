@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Leo Inline Translator",
-  "description": "Get Leo.de's definition of your highlighted word",
-  "version": "1.32",
+  "description": "Get Leo.de's definition of your highlighted word without leaving the page",
+  "version": "0.01",
 
   "icons": {
     "16": "16.png",
