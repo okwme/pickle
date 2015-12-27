@@ -3,7 +3,7 @@
 
   "name": "Leo Inline Translator",
   "description": "Get Leo.de's definition of your highlighted word without leaving the page",
-  "version": "0.01",
+  "version": "1.12",
 
   "icons": {
     "16": "16.png",

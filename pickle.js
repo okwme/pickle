@@ -32,7 +32,7 @@ $(document).ready(function(){
 function findall(query){
   killSlider(function(){
 	  $('#hideSlider').text('✖ "'+query+'"').css("display", "block");
-	  var url = "https://dict.leo.org/ende/?lang=en&search="+query;
+	  var url = "https://dict.leo.org/ende/?lang=en&xtn=100&search="+query;
 	  $(".leoiFrame").attr("src", url).slideDown();
   });
 }
